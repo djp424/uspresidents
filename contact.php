@@ -83,6 +83,8 @@ $anti_spam = "637518"; //// Enter a 6 digit antispam code
   <div id="mainContent">
     <h1> Contact</h1>
     <p>Please visit the <a href="faq.html" target="_blank">FAQ</a> page to see if your questions are answered there before contacting me. </p>
+
+	<h2>UPDATE: The contact form has been disabled as it was created by hand back in 2010. Please contact me through my <a href="https://davidparsons.me/contact/">personal site</a> instead.</h2>
     
 	<?php
 	//if(isset($_POST['anti']) && $_POST['anti'] == '556693') {
@@ -163,10 +165,10 @@ User's Comments:\n $c \n ";
 } // End of the main Submit conditional.
 
 
-// Action below used to be action="contact.php".
+// Form below used to be the following: <form action="" method="" name="form1" id="form1">.
 ?>
 <br />
-    <form action="" method="post" name="form1" id="form1">
+    <form action="" method="" name="form1" id="form1">
  	 <h5>Name: </h5>
  	 <input name="name" type="text" id="name" size="20" maxlength="40" value="<?php if (isset($_POST['name'])) echo $_POST['name']; ?>" />
  	 <br />
@@ -210,7 +212,7 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
 <script type="text/javascript">
 try {
 var pageTracker = _gat._getTracker("UA-12245651-1");
-pageTracker._trackPageview();
+pageTracker._trackPageview();git remote rm
 } catch(err) {}</script>
 </body>
 </html>
