@@ -84,7 +84,7 @@ $anti_spam = "637518"; //// Enter a 6 digit antispam code
     <h1> Contact</h1>
     <p>Please visit the <a href="faq.html" target="_blank">FAQ</a> page to see if your questions are answered there before contacting me. </p>
 
-	<h2>UPDATE: The contact form has been disabled as it was created by hand back in 2010. Please contact me through my <a href="https://davidparsons.me/contact/">personal site</a> instead.</h2>
+	<h3>UPDATE: The contact form has been disabled as it was created by hand back in 2010. Please contact me through my <a href="https://davidparsons.me/contact/">personal site</a> instead.</h3>
     
 	<?php
 	//if(isset($_POST['anti']) && $_POST['anti'] == '556693') {
